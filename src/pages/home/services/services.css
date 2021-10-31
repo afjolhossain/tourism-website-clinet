@@ -1,0 +1,13 @@
+.services-container{
+    margin-top: 40px;
+    margin-left: 30px;
+  
+}
+.raw{
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 20px;
+     border:4px rgb(206, 189, 189);
+     border-radius: 10px;
+     margin-top: 20px;
+ }

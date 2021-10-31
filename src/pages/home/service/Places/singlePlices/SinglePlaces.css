@@ -1,0 +1,13 @@
+.image {
+    width: 318px;
+    height: 300px;
+}
+.details{
+    width: 300px;
+}
+.card-places{
+    margin-bottom: 15px;
+    border: 2px rosybrown solid;
+    border-radius: 10px;
+    background-color: cadetblue;
+}

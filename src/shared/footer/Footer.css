@@ -1,0 +1,22 @@
+
+.footer-img{
+    width: 150px;
+}
+
+
+.footer-font-a {
+    color: brown;
+}
+.footer-details{
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer-font{
+    color: white;
+}
+.footer{
+    width:150%;
+    height:150px;
+    background-color: black;
+};

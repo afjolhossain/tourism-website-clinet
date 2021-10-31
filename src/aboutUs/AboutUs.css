@@ -1,0 +1,19 @@
+
+.font-contact{
+    color: black;
+}
+
+
+.Form{
+    width: 700px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.contact-file{
+    display: flex;
+}
+.contactt-img{
+    margin-left: 40%;
+    margin-top: 40%;
+}

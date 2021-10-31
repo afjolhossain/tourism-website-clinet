@@ -1,0 +1,18 @@
+.Add-form{
+    background-color: rgb(53, 61, 61);
+    height: 500px;
+    
+}
+.add-plases form {
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-plases form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+};
+
