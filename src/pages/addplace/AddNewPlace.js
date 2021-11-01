@@ -9,7 +9,7 @@ const AddNewPlace = () => {
         const { register, handleSubmit,reset } = useForm();
         const onSubmit = data =>{
             console.log(data);
-            axios.post('http://localhost:4000/places',data)
+            axios.post('https://dark-mummy-52550.herokuapp.com/places',data)
             .then(res=>{
                 if(res.data.insertedId)
                 {

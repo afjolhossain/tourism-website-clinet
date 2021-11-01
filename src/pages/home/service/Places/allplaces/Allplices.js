@@ -6,7 +6,7 @@ const Allplices = () => {
     const [places, setplaces] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:4000/places')
+        fetch('https://dark-mummy-52550.herokuapp.com/places')
         .then(res => res.json())
         .then(data=>setplaces(data))
     },[]);
@@ -15,7 +15,7 @@ const Allplices = () => {
         <div id ="Allplices" className="places-container col-lg-12 col-md-8 col-sm-4">
            <h2>Our All Places</h2>
            <div className="places">
-           {
+           {    
                 places.map(place=> <SinglePlices
                 place={place}
                 ></SinglePlices>)
